@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
+[diff]
+	tool = vimdiff
+[core]
+	editor = /usr/local/bin/vim
+[user]
+	name = Chris Temple
+	email = temple3188@gmail.com
