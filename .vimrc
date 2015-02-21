@@ -16,6 +16,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
@@ -43,8 +44,8 @@ set nowrap
 set backspace=indent,eol,start
 set textwidth=0
 set wrapmargin=0
-set t_Co=256
 set relativenumber
+set t_Co=256
 colorscheme molokai
 set background=dark
 map <C-n> :NERDTreeToggle<CR>
