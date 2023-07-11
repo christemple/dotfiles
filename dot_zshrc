@@ -151,3 +151,6 @@ fi
 if [[ -r "$HOME/.bash_profile" ]]; then
   source "$HOME/.bash_profile"
 fi
+
+# DIRENV
+eval "$(direnv hook zsh)"
