@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Chris Temple
+	email = temple3188@gmail.com
+[alias]
+	st = status
+	co = checkout
+[init]
+	defaultBranch = main
