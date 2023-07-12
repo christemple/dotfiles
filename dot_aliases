@@ -1,2 +1,5 @@
 alias cz="chezmoi"
 alias nr="npm run"
+alias e="cd ~/work/eurostar"
+alias ed="cd ~/work/eurostar/design-system"
+alias eb="cd ~/work/eurostar/business-dashboard-app"
