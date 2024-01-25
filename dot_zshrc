@@ -154,3 +154,10 @@ fi
 
 # DIRENV
 eval "$(direnv hook zsh)"
+
+# echo "Fetching CodeArtifact token"
+setup-codeartifact() {
+  aws sso login
+  local codeartifact_auth_token="$(aws codeartifact get-authorization-token --domain eurostar --domain-owner 042320015852 --region eu-west-1 --query authorizationToken --output text)"
+  export CODEARTIFACT_AUTH_TOKEN="$codeartifact_auth_token"
+}
