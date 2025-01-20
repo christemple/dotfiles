@@ -162,6 +162,3 @@ setup-codeartifact() {
   export CODEARTIFACT_AUTH_TOKEN="$codeartifact_auth_token"
 }
 
-docker-compose() {
-    docker compose "$@"
-}
