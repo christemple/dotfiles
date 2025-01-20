@@ -161,3 +161,7 @@ setup-codeartifact() {
   local codeartifact_auth_token="$(aws codeartifact get-authorization-token --profile default --domain eurostar --domain-owner 042320015852 --region eu-west-1 --query authorizationToken --output text)"
   export CODEARTIFACT_AUTH_TOKEN="$codeartifact_auth_token"
 }
+
+docker-compose() {
+    docker compose "$@"
+}
