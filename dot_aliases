@@ -7,3 +7,4 @@ alias m="git checkout master"
 alias um="git checkout master && git pull"
 alias npm-auth="setup-codeartifact"
 alias docker-compose="docker compose"
+
